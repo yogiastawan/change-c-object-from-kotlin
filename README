@@ -1,0 +1,10 @@
+# REFERENCE
+
+- https://docs.oracle.com/javase/8/docs/technotes/guides/jni/spec/types.html
+
+# INTRO
+
+1. `Kotlin`: Call method `createMyData` which is native method.
+2. `C`: will execute function `_*x_createMyData` and call method `setAddressPtr` to set field `address`.
+3. `Kotlin`: Call method `doubleGrade` which is native method and pass value `address` to it.
+4.  `C`: Will execute function `_*x_doubleGrade`, get the address and cast it to pointer `MyData *`. After that multiply `grade` of pointer by 2.

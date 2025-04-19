@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/gihexdev00/Programming/java/change-c-struct/native",
+    "cmake.buildDirectory": "${workspaceFolder}/native/build"
+}
