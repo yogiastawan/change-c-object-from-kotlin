@@ -18,9 +18,10 @@ class App {
         address = addr
     }
 
-    external fun createMyData()
+    external fun cMain()
 
     external fun doubleGrade(addressPointer: Long)
+    external fun turnOff(addressPointer: Long)
 
     companion object {
         init {

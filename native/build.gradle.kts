@@ -1,5 +1,5 @@
 task <Exec>("compileNative"){
-    commandLine("sh","-c","mkdir -p build && cd build && cmake .. && make")
+    commandLine("sh","-c","mkdir -p build && cd build && cmake .. && cmake --build .")
  }
  
  task<Exec>("cleanNative"){
